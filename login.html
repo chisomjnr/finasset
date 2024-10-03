@@ -7,11 +7,17 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
     
   <meta name="title" content="Welcome to FinAsset">
   <meta name="description" content="FinAsset is your comprehensive solution for efficient asset management. Track, manage, and optimize your assets with ease.">
   
+ 
+  
+    
 
   <link rel="icon" href="assets/letter-g (1).png" type="image/x-icon">
     <link rel="stylesheet" href="log.css" />
@@ -20,6 +26,18 @@
   <body>
     <div class="container">
       <div class="container__content">
+        <a class="back" id="goBackLink" href="#"><i class="ri-arrow-left-line"></i></a>
+
+
+        <script>
+            document.getElementById("goBackLink").addEventListener("click", function(event) {
+                event.preventDefault(); // Prevent the default behavior of the link
+            
+                history.back(); // Go back to the previous page
+            });
+            </script>
+          
+
         <h2>FinAsset<strong style="color: orangered;">.</strong></h2>
         <h3>Welcome back!</h3>
         <h1>Log In To Your Account</h1>
@@ -30,7 +48,7 @@
           </div>
           <div class="input__header">
             <label for="password">Password</label>
-            <a href="#">Forgot Password?</a>
+            <a href="forgetp.html">Forgot Password?</a>
           </div>
           <div class="input__row">
             <input type="password" id="password" placeholder="Password" />

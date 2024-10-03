@@ -194,8 +194,13 @@ nav {
     font-size: 35px
 }
 
+.section__header{
+    font-size: 30px;
+}
+
+
 .header__container h1 {
-font-size: 35px;
+font-size: 30px;
 line-height: 1.4;
 
 }
@@ -616,13 +621,14 @@ line-height: 1.4;
 
 .finasset__card {
   padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+ border: 2px solid rgb(200, 200, 200);
   transition: 0.3s;
 }
 
 .finasset__card:hover {
   background-color: var(--primary-color);
+  border-color: transparent;
 }
 
 .finasset__card__header {

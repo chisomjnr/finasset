@@ -190,7 +190,9 @@ nav {
     margin-top: 70px;
   }
 
-
+  .section__header{
+    font-size: 30px;
+}
 
 .header__container h1 {
 font-size: 35px;
