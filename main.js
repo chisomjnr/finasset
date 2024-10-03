@@ -20,6 +20,24 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
+
+ScrollReveal().reveal(".section__header", {
+  ...scrollRevealOption,
+});
+ScrollReveal().reveal(".section__header", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".section__description", {
+  ...scrollRevealOption,
+});
+ScrollReveal().reveal(".section__description", {
+  ...scrollRevealOption,
+  delay: 900,
+});
+
+
 ScrollReveal().reveal(".header__container h2", {
   ...scrollRevealOption,
 });
@@ -55,6 +73,17 @@ ScrollReveal().reveal(".offer__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+ScrollReveal().reveal(".footer__logo", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".footer__col p", {
+  ...scrollRevealOption,
+  delay: 900,
+});
+
 
 const swiper = new Swiper(".swiper", {
   loop: true,
