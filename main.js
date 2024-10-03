@@ -21,13 +21,18 @@ const scrollRevealOption = {
 };
 
 
-ScrollReveal().reveal(".section__header", {
+
+
+
+
+ScrollReveal().reveal(".container__content", {
   ...scrollRevealOption,
 });
-ScrollReveal().reveal(".section__header", {
+ScrollReveal().reveal(".container__content", {
   ...scrollRevealOption,
   delay: 500,
 });
+
 
 ScrollReveal().reveal(".section__description", {
   ...scrollRevealOption,
@@ -83,6 +88,7 @@ ScrollReveal().reveal(".footer__col p", {
   ...scrollRevealOption,
   delay: 900,
 });
+
 
 
 const swiper = new Swiper(".swiper", {
